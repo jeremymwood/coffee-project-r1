@@ -2,6 +2,8 @@
 function renderCoffee(coffee) {
     let html = '<div class="coffee d-flex flex-row" id="' + coffee.id + '">';
     // html += '<div class="col-12 col-md-6">';
+    // <div className="col-6 px-0 opacity-0" id="coffees"></div>
+
     html += '<div class="coffeeName pe-3" id="' + coffee.name + '">' + coffee.name + '</div>';
     html += '<div class=" ' + coffee.roast + ' my-auto">' + coffee.roast + '</div>';
     // html += '</div>';
