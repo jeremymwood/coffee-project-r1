@@ -72,9 +72,7 @@ let submitButton = document.querySelector('#submit');
 let roastSelection = document.querySelector('#roast-selection');
 let addRoastSelection = document.querySelector('#add-roast-selection');
 let addNewCoffee = document.querySelector('#enterNewCoffee');
-// let searchCoffeesBar = document.querySelector("#enterCoffee");
 
 content.innerHTML = renderCoffees(coffees);
 roastSelection.addEventListener('change', updateCoffees);
 submitButton.addEventListener('click', addCoffees);
-// searchCoffeesBar.addEventListener('keyup', searchCoffees);
