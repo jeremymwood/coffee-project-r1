@@ -10,6 +10,10 @@ h1, h3 {
     display: flex;
     justify-content: center;
     color: white;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+.label, .pb-2, .py-2, #coffees {
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 select, input {
     width: 100%;
