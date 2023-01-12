@@ -1,9 +1,9 @@
 "use strict"
 function renderCoffee(coffee) {
-    let html = '<div class="col-5 offset-1 pe-0">';
+    let html = '<div class="col-6 col-md-4 col-lg-5 offset-lg-1 pe-0">';
     html += '<div class="coffee d-flex flex-row" id="' + coffee.id + '">';
     html += '<div class="coffeeName pe-3" id="' + coffee.name + '">' + coffee.name + '</div>';
-    html += '<div class=" ' + coffee.roast + ' my-auto">' + coffee.roast + '</div>';
+    html += '<div class="' + coffee.roast + ' my-auto">' + coffee.roast + '</div>';
     html += '</div>';
     html += '</div>';
 
