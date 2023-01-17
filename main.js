@@ -1,11 +1,10 @@
 "use strict"
 function renderCoffee(coffee) {
-    let html = '<div class="coffee d-flex flex-row" id="' + coffee.id + '">';
-    // html += '<div class="row">';
-    // let coffeeItem =
+    let html = '<div class="col-6 col-md-4 col-lg-5 offset-lg-1 pe-0">';
+    html += '<div class="coffee d-flex flex-row" id="' + coffee.id + '">';
     html += '<div class="coffeeName pe-3" id="' + coffee.name + '">' + coffee.name + '</div>';
-    html += '<div class=" ' + coffee.roast + ' my-auto">' + coffee.roast + '</div>';
-    // html += '</div>';
+    html += '<div class="' + coffee.roast + ' my-auto">' + coffee.roast + '</div>';
+    html += '</div>';
     html += '</div>';
 
     return html;
@@ -73,9 +72,18 @@ let submitButton = document.querySelector('#submit');
 let roastSelection = document.querySelector('#roast-selection');
 let addRoastSelection = document.querySelector('#add-roast-selection');
 let addNewCoffee = document.querySelector('#enterNewCoffee');
-// let searchCoffeesBar = document.querySelector("#enterCoffee");
 
 content.innerHTML = renderCoffees(coffees);
 roastSelection.addEventListener('change', updateCoffees);
 submitButton.addEventListener('click', addCoffees);
-// searchCoffeesBar.addEventListener('keyup', searchCoffees);
+
+// presentation notes
+// pop-ups for no information entered
+// save results to local storage
+// icons
+// art work
+// button, dropdown, input styling
+// large layout center inputs
+// larger text for desktop
+// buttons should have a max width
+// need background filters behind text for legibility

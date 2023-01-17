@@ -10,6 +10,10 @@ h1, h3 {
     display: flex;
     justify-content: center;
     color: white;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+.label, .pb-2, .py-2, #coffees {
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 select, input {
     width: 100%;
@@ -30,7 +34,7 @@ h1, h3, label {
 .light, .medium, .dark {
     padding: 0;
 }
-    /*START KENBURNS BACKGROUND*/
+/*START KENBURNS BACKGROUND*/
 .bg-image {
     min-height: 100vh;
     position: relative;
@@ -48,7 +52,7 @@ h1, h3, label {
 
 .kenburns {
     z-index: -10;
-    opacity: 75%;
+    opacity: 50%;
     position: absolute;
     top: -999px;
     bottom: -999px;
